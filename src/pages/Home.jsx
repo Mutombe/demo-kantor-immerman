@@ -139,7 +139,7 @@ function HeroSection() {
                 className={`font-heading font-bold leading-[0.88] tracking-tight ${
                   word === 'WITH PRECISION.' ? 'text-gold-500' : 'text-white'
                 }`}
-                style={{ fontSize: 'clamp(2.5rem, 10vw, 8rem)' }}
+                style={{ fontSize: 'clamp(2.5rem, 7vw, 4.5rem)' }}
               >
                 {word}
               </h1>
@@ -339,7 +339,7 @@ function PracticeAreasGrid() {
   const serviceImages = [
     'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800',
     'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800',
-    'https://images.unsplash.com/photo-1507679799987-c73b1c5a5f46?w=800',
+    'https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=800',
     'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800',
     'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800',
     'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800',
@@ -438,11 +438,11 @@ function LandmarkCases() {
 
   const cases = [
     { src: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600', caption: 'Supreme Court Governance Precedent' },
-    { src: 'https://images.unsplash.com/photo-1507679799987-c73b1c5a5f46?w=600', caption: '$5M Property Dispute Resolution' },
+    { src: 'https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=600', caption: '$5M Property Dispute Resolution' },
     { src: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600', caption: 'Class Action Labour Dispute' },
     { src: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600', caption: '$20M Financial Services Merger' },
     { src: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600', caption: 'High-Profile Estate Dispute' },
-    { src: 'https://images.unsplash.com/photo-1507679799987-c73b1c5a5f46?w=600', caption: 'National Retail Lease Portfolio' },
+    { src: 'https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=600', caption: 'National Retail Lease Portfolio' },
   ];
 
   return (
@@ -458,7 +458,7 @@ function LandmarkCases() {
             <div className="w-10 h-[2px] bg-gold-500 mb-6" />
             <h2
               className="font-heading font-bold text-white leading-[0.92]"
-              style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}
+              style={{ fontSize: 'clamp(2.5rem, 7vw, 4.5rem)' }}
             >
               LANDMARK <span className="text-gold-500">CASES</span>
             </h2>
@@ -773,7 +773,7 @@ function CTASection() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="font-heading font-bold text-white leading-[0.88] mb-8" style={{ fontSize: 'clamp(2.5rem, 8vw, 7rem)' }}>
+          <h2 className="font-heading font-bold text-white leading-[0.88] mb-8" style={{ fontSize: 'clamp(2.5rem, 7vw, 4.5rem)' }}>
             JUSTICE DOES<br />
             NOT <span className="text-gold-500">WAIT.</span>
           </h2>
